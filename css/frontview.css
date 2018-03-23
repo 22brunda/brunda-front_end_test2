@@ -202,4 +202,51 @@ section .section-title {
 }
 }
 
+.scrollToTop{
+  
+  height:130px;
+  padding:35px; 
+  text-align:center; 
+  background: whiteSmoke;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position:fixed;
+  top:500px;
+  right:40px;
+  display:none;
+  background: url('https://image.flaticon.com/icons/svg/36/36905.svg') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+  text-decoration:none;
+}
+
+.center {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 0px 0px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 0px solid #ddd;
+    margin: 0 0px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.hm{
+  float:right;
+}
 
