@@ -37,8 +37,8 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li class="active-home" id="hme" onclick="myFunction"><a href="#"><b>Home</b></a></li>
-              <li class="about" id="abt" onclick="myFunction"><a href="#"><b>About</b></a></li>
+              <li class="active-home" id="hme"><a href="#"><b>Home</b></a></li>
+              <li class="about" id="abt"><a href="#"><b>About</b></a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>Products</b><span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -57,40 +57,41 @@
 
       <div class="row" id="homepage">
         <div class="row">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
+          <div id="myCarousel" class="carousel slide" data-ride="carousel" id="carousel">
             <div class="carousel-inner">
               <div class="item active">
-                <img src="Images/shopping1.jpg" alt="group of pepole" style="width:100%; height: 80%">
+                <img src="Images/shopping1.jpg" alt="Los Angeles" style="width:100%; height: 80%;">
               </div>
 
               <div class="item">
-                <img src="Images/shopping2.jpg" alt="women single shop" style="width:100%; height: 80%">
+                <img src="Images/shopping2.jpg" alt="Chicago" style="width:100%; height: 80%;">
               </div>
-    
+
               <div class="item">
-                <img src="Images/shopping4.jpg" alt="exciting-shop" style="width:100%; height: 80%" >
+                <img src="Images/shopping4.jpg" alt="New york" style="width:100%; height: 80%;">
               </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-sm-4">
-              <div id="btn">
-                <ol  id="carousel_button">
-                <a href="#myCarousel" data-slide="prev">
-                  <button><span class="left">prev</span></button>
-                  <span class="sr-only"></span>
-                </a>
-                <button data-target="#myCarousel" data-slide-to="0" >1</button>
-                <button data-target="#myCarousel" data-slide-to="1" >2</button>
-                <button data-target="#myCarousel" data-slide-to="2" >3</button>
-                <a  href="#myCarousel" data-slide="next">
-                <button><span class="right">nxt</span></button>
-                <span class="sr-only"> </span>
-                </a>
-              </ol>
-              </div>
+            <div class="row">
+              <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                  <div id="btn">
+                    <ol  id="carousel_button">
+                      <a href="#myCarousel" data-slide="prev">
+                      <button class="leftbtn"><span class="left"><b>prev</b></span></button>
+                      <span class="sr-only"></span>
+                      </a>
+                      <button data-target="#myCarousel" data-slide-to="0" class="first"><b>1</b></button>
+                      <button data-target="#myCarousel" data-slide-to="1" class="second"><b>2</b></button>
+                      <button data-target="#myCarousel" data-slide-to="2" class="third"><b>3</b></button>
+                      <a  href="#myCarousel" data-slide="next">
+                      <button class="rightbtn"><span class="right"><b>next</b></span></button>
+                      <span class="sr-only"> </span>
+                      </a>
+                    </ol>
+                  </div>
+                </div>
+                <div class="col-sm-4"></div>
             </div>
           </div>
         </div>
@@ -114,19 +115,19 @@
           <div class="col-sm-4">
             <img class="img-style" src="Images/amazonsignin.jpg" alt="group of pepole">
             <p>Creating an AWS account is free and gives you immediate access to the AWS Free Tier. Login & security. Edit login, name, and mobile number. Prime. View benefits and payment settings. Your Addresses. Edit addresses for ... Other accounts. Amazon Business registration · Seller account · Amazon Web Services · Login with Amazon. Shopping programs and rentals. Subscribe & Save. Subscriptions. Email.</p>
-            <button type="button" class="btn" onclick="myFunction" id="info">Info</button>
+            <button type="button" class="bttn" id="info"><b>Info</b></button>
           </div>
 
           <div class="col-sm-4">
             <img class="img-style" src="Images/amazon1.png" alt="amazon icon">
             <p> Amazon.com case study - 2018 update Amazon's business strategy, revenue model and culture of metrics: a history I've used Amazon as a case study in my books for nearly 20 years now since I think all types of businesses can learn. From startups and small businesses ...Amazon Inc is an American international e-commerce company. Case 1: Will the kindle revolutionize the book industry.The amazon.com website started as an online bookstore.</p>
-            <button type="button" onclick="myFunction" class="btn" id="info1">Info</button>
+            <button type="button" class="bttn" id="info1"><b>Info</b></button>
           </div>
 
           <div class="col-sm-4">
             <img class="img-style" src="Images/download.png" alt="aws service">
             <p>Amazon Machine Images (AMI). An Amazon Machine Image (AMI) provides the information required to launch an instance, which is a virtual server in the cloud. when you need multiple instances with the same ...An Amazon Machine Image (AMI) is a special type of virtual appliance that is used to create a virtual machine within the Amazon Elastic Compute Cloud ("EC2").A history I've used Amazon as a case study in my books for nearly 20 years </p>
-            <button type="button" onclick="myFunction" class="btn" id="info2">Info</button>
+            <button type="button" class="bttn" id="info2"><b>Info</b></button>
           </div>
         </div></br>
 
@@ -144,7 +145,7 @@
             Amazon is now gearing up in India to play a role in the grocery retail sector aimed at delivering customer needs. Junglee is a former online shopping service which was provided by Amazon which enabled customers to search for products from online and offline retailers in India. Junglee started off as a virtual database that was used to extract information off the internet and deliver it to enterprise applications. As it progressed, Junglee started to use its database technology to create a single window marketplace on the internet by making every item from every supplier available for purchase. Web shoppers could locate, compare and transact millions of products from across the Internet shopping mall through one window.</p>
           </div>
           <div class="col-sm-2">
-            <a id="get">more</a>
+            <a id="get"><b>more</b></a>
             <a href="#" class="scrollToTop"></a>
           </div>
         </div>

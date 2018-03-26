@@ -225,5 +225,67 @@ section .section-title {
 
 #btn{
     margin-left:400px;
+    position: absolute;
+    z-index: 2;
+    
 }
 
+.leftbtn{
+  background-color: #38eeff;
+  font-size: 20px;
+  color:black;
+}
+
+.left{
+  background-color: #38eeff;
+}
+
+.rightbtn{
+  background-color: #38eeff;
+  color: black;
+  font-size: 20px;
+}
+
+.right{
+  background-color: #38eeff;
+}
+
+.first{
+  background-color: #38eeff;
+  font-size: 15px;
+  color:black;
+}
+
+.second{
+  background-color: #38eeff;
+  font-size: 15px;
+  color:black;
+}
+
+.third{
+  background-color: #38eeff;
+  font-size: 15px;
+  color:black;
+}
+
+.bttn{
+  background-color: #38eeff;
+}
+
+#info{
+  background-color: #38eeff;
+  font-size: 20px;
+  color: black;
+}
+
+#info1{
+  background-color: #38eeff;
+  font-size: 20px;
+  color: black;
+}
+
+#info2{
+  background-color: #38eeff;
+  font-size: 20px;
+  color: black;
+}
