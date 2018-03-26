@@ -230,6 +230,12 @@ section .section-title {
     
 }
 
+#carousel_button{
+  margin-top: -36px !important;
+}
+
+
+
 .leftbtn{
   background-color: #38eeff;
   font-size: 20px;
@@ -288,4 +294,16 @@ section .section-title {
   background-color: #38eeff;
   font-size: 20px;
   color: black;
+}
+
+@media screen and (max-width: 412px) , screen and (max-height: 732px) {
+  #carousel_button{
+    margin-left: 83px !important;
+  }
+}
+
+@media screen and (max-width: 420px) , screen and (max-height: 740px) {
+  #carousel_button{
+    margin-left: 83px !important;
+  }
 }

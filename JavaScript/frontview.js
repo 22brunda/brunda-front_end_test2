@@ -1,14 +1,14 @@
 $(document).ready(function(){
-  debugger
+  
   $("#aboutpage").hide();
   $("#hme").click(function(){
-    debugger
+   
     $("#aboutpage").hide();
     $("#homepage").show();
   });
 
   $("#abt").click(function(){
-    debugger
+   
     $("#homepage").hide();
     $("#aboutpage").show();
   });
